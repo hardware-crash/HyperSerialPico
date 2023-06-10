@@ -1,16 +1,16 @@
 # User configuration section starts here
 
 # Default output data pin for the LED strip
-set(OUTPUT_DATA_PIN 2)
+set(OUTPUT_DATA_PIN 14)
 
 # Default output clock pin for the LED strip (SPI leds only, not for sk6812/ws2812b)
 set(OUTPUT_CLOCK_PIN 3)
 
 # Use multi-segment, starting index of second led strip or OFF to disable
-set(SECOND_SEGMENT_INDEX OFF)
+set(SECOND_SEGMENT_INDEX 150)
 
 # If multi-segment is used and it's reversed, set this option to ON to enable reversing
-set(SECOND_SEGMENT_REVERSED OFF)
+set(SECOND_SEGMENT_REVERSED ON)
 
 # User configuration section ends here
 # Usually you don't need to change anything belowe this section
